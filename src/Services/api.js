@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://treatment-backend-it5o.onrender.com/api";
 
 export const getReports = async () => {
   const res = await fetch(`${API_URL}/reports`);
@@ -50,7 +50,7 @@ body:JSON.stringify(data)
 export const getAIRecommendation = async(disease)=>{
 
 const res = await fetch(
-`http://localhost:3000/api/ai/recommend/${disease}`
+`https://treatment-backend-it5o.onrender.com/api/ai/recommend/${disease}`
 );
 
 return res.json();
