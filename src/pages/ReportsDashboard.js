@@ -11,7 +11,6 @@ Title,
 Tooltip,
 Legend
 } from "chart.js";
-import { MoveRight } from "lucide-react";
 
 ChartJS.register(
 CategoryScale,
